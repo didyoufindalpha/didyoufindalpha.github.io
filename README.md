@@ -1,2 +1,1 @@
-# didyoufindalpha.github.io
-Blog du Chetan
+# Chetan writes @ didyoufindalpha.github.io
