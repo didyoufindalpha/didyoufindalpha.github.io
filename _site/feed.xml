@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-22T23:39:03+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Did you find alpha?</title><subtitle>Software engineering, Computational Investing and finance.</subtitle><entry><title type="html">Diving Deep Into Git’s Engineering</title><link href="http://localhost:4000/Diving-deep-into-Git-s-engineering/" rel="alternate" type="text/html" title="Diving Deep Into Git’s Engineering" /><published>2017-12-25T00:00:00+05:30</published><updated>2017-12-25T00:00:00+05:30</updated><id>http://localhost:4000/Diving-deep-into-Git%E2%80%99s-engineering</id><content type="html" xml:base="http://localhost:4000/Diving-deep-into-Git-s-engineering/"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Statistics-101 for Data Noobs!</title><link href="http://localhost:4000/Statistics101-for-data-noobs/" rel="alternate" type="text/html" title="Statistics-101 for Data Noobs!" /><published>2017-12-16T00:00:00+05:30</published><updated>2017-12-16T00:00:00+05:30</updated><id>http://localhost:4000/Statistics101-for-data-noobs</id><content type="html" xml:base="http://localhost:4000/Statistics101-for-data-noobs/">&lt;p&gt;It’s a fact that you can’t play around with data if you can’t do statistics. Though statistics is not the most important part of learning and doing Data Science, but it is needed and plays a major role in making you a better data scientist who moves forward with a structured approach.
+So, here are some descriptive statistics key terms that I think that every data-guy should know and their python code brewed in the easiest of manners.&lt;/p&gt;
+
+&lt;p&gt;1. &lt;strong&gt;Descriptive statistics&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Descriptive statistics&lt;/strong&gt; give information that describes the data in some manner. For example, suppose a pet shop sells cats, dogs, birds and fish. If 100 pets are sold, and 40 out of the 100 were dogs, then one description of the data on the pets sold would be that 40% were dogs. A graphical representation of data is another method of descriptive statistics.&lt;/p&gt;
+
+&lt;p&gt;2. &lt;strong&gt;Population&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A population is a selected individual or group representing the full set of members of a certain group of interest.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Sample&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A sample is a subset drawn from a larger population. If this drawing is accomplished in such a manner that each member of the population has an equitable chance of selection, the result is referred to as a &lt;strong&gt;random sample&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;4. &lt;strong&gt;Parameter&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A parameter is a value which is generated from a population. If I had all the data of all humans on Earth and generated the mean age, this value would be a parameter.&lt;/p&gt;
+
+&lt;p&gt;5. &lt;strong&gt;Statistic&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A &lt;strong&gt;statistic &lt;/strong&gt;or &lt;strong&gt;sample statistic&lt;/strong&gt; is a single measure of some attribute of a sample (e.g., its arithmetic mean value). It is calculated by applying a function (statistical algorithm) to the values of the items of the sample, which are known together as a set of data.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Generalisability&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Generalisability can be described as the ability to draw conclusions about the characteristics of the population as a whole based on the results of data collected from a ‘sample’. This is ability is not a given, and depends heavily on the nature of sample collection, sample size, and various other factors.&lt;/p&gt;
+
+&lt;p&gt;7. &lt;strong&gt;Distribution&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A distribution is best described as the arrangement of data by the values of one variable in order, from low to high. This arrangement, and its characteristics such as shape and spread, provide information about the underlying sample.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. Mean&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Mean, along with median and mode, is one of the 3 major measures of central tendency, which collectively evaluate an important and basic aspect of a distribution. The simple arithmetic average of a distribution of variable values (or scores), the mean provides a single, concise numerical summary of a distribution. The mean is also likely the most common statistics encountered in general research. Population mean is denoted μ, while sample mean is denoted x̄.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Median&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Median is the score of a distribution residing at the 50th percentile, separating the top and bottom 50 percent of scores. The median is useful for both splitting a set of distribution scores in half and helping to identify the skew of a distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Mode&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The mode is simply the score which appears most frequently in the distribution. Multimodal refers to a distribution with more than one mode; bimodal refers to a distribution with 2 modes.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;11. Skew&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When there are more scores toward one end of the distribution than the other, this results in &lt;strong&gt;skew&lt;/strong&gt;. When the scores of a distribution are more clustered at the high end, the relatively fewer number of scores on the low end result in a tail, with the scenario being referred to as negative skew. Positive skew is when a distribution shows a tail at its high end. So basically, in a negatively skewed distribution, we would expect the mean to be less than the median, while in a positively skewed distribution, we would expect the mean to be greater than the median.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;12. Range&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;When dealing with dispersion dispersion, the range is the difference between the maximum and minimum values of a distribution.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;13. Variance&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Variance is the statistical average of the dispersion of scores in a distribution. Variance is not often used on its own, but can be a useful calculation on the way to a more descriptive statistical measurement, such as standard deviation.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;14. Standard Deviation&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The standard deviation of a distribution is the average deviation between individual distribution scores and the distribution’s mean. Individually, the standard deviation provides a good measure of how spread out a disquisitions scores are. When considered alongside the mean, these 2 measures provides a good overview of the distribution of scores.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;15. Interquartile Range (IQR)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The IQR is the difference between the score delineating the 75th percentile and the 25th percentile, the third and first quartiles, respectively.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mathematically, IQR = Q3 — Q1&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Python representations of some of these terms:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;script src=&quot;https://gist.github.com/debuggermalhotra/7671faae2dac62fc8181a5af1e55fbf8.js&quot;&gt;&lt;/script&gt;</content><author><name></name></author><summary type="html">It’s a fact that you can’t play around with data if you can’t do statistics. Though statistics is not the most important part of learning and doing Data Science, but it is needed and plays a major role in making you a better data scientist who moves forward with a structured approach. So, here are some descriptive statistics key terms that I think that every data-guy should know and their python code brewed in the easiest of manners.</summary></entry></feed>
