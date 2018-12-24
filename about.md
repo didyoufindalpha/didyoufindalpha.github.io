@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 ### What is this?
-This is a blog about Software Engineering, Computational Trading and Investing and finance.
+This is a blog about Software Engineering, Computational+Systematic Trading and a little bit of finance.
 
 ### Who is the author of this blog?
 Chetan Malhotra is the author of this blog and he has a <a href="http://debuggermalhotra.github.io" target="_blank">webiste</a>.
